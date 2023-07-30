@@ -26,7 +26,7 @@ function page({ }: Props) {
                 Explore all tracks
             </h2>
             <p className='font-semibold px-2 -mt-1 mb-4 text-base'>
-                Find the right one by choosing area of knowledge
+                Find the right one by choosing area of knowledge okay .
             </p>
             <div className='flex flex-wrap'>
                 <TracksButton name="All Tracks" count={2} isActive={activeIndex === 0} onClick={() => handleButtonClick(0)} />
