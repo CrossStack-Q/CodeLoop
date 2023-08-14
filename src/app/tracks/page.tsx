@@ -5,7 +5,7 @@ import TracksButton from '@/components/UI/TracksButton'
 
 type Props = {}
 
-function page({ }: Props) {
+function Tracks({ }: Props) {
 
     const [activeIndex, setActiveIndex] = useState(0);
 
@@ -51,4 +51,4 @@ function page({ }: Props) {
     )
 }
 
-export default page
+export default Tracks

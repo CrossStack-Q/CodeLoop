@@ -9,7 +9,7 @@ type Props = {
   onClick : () => void;
 }
 
-const tracksButton = ({name,count ,isActive, onClick}: Props) => {
+const TracksButton = ({name,count ,isActive, onClick}: Props) => {
   const [active, setActive] = useState(false)
 
   const handleClick = () => {
@@ -39,4 +39,4 @@ const tracksButton = ({name,count ,isActive, onClick}: Props) => {
   )
 }
 
-export default tracksButton
+export default TracksButton
